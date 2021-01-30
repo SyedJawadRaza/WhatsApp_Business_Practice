@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "306753188607",
+    "project_id": "whatsappbusiness-d5a4c",
+    "storage_bucket": "whatsappbusiness-d5a4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306753188607:android:90e9d80af1dd0db9bf12ca",
+        "android_client_info": {
+          "package_name": "com.jawadraza772.whatsapp_business"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306753188607-n01d65loljcb4nk2optihuv04apf9n4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jawadraza772.whatsapp_business",
+            "certificate_hash": "6407d0fd0921f79e0528d29ae8aac9459bb6fc20"
+          }
+        },
+        {
+          "client_id": "306753188607-p1cd5rt3eick0n4r70bc45esqcfgjk2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGcBwsoCpLMCWCsXaASpjXF-pUMkn12vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306753188607-p1cd5rt3eick0n4r70bc45esqcfgjk2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
