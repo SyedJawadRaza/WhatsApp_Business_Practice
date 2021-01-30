@@ -29,18 +29,18 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.ViewHolder> 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.sample_show_user, parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.sample_show_user, parent, false);
+
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-        Users users =  list.get(position);
+        Users users = list  .get(position);
+
         Picasso.get().load(users.getProfilepic()).placeholder(R.drawable.avatar).into(holder.image);
         holder.userName.setText(users.getUserName());
-
-
 
     }
 
@@ -52,7 +52,8 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.ViewHolder> 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         ImageView image;
-        TextView userName , lastMessage;
+        TextView userName, lastMessage;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 

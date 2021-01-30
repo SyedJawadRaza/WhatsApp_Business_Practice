@@ -18,12 +18,15 @@ public class FragmentsAdapter extends FragmentPagerAdapter {
     @NonNull
     @Override
     public Fragment getItem(int position) {
-        switch (position){
-            case 0: return new ChatsFragment();
-            case 1: return new StatusFragment();
-            case 2: return new CallsFragment();
-            default:return new ChatsFragment();
-
+        switch (position) {
+            case 0:
+                return new ChatsFragment();
+            case 1:
+                return new StatusFragment();
+            case 2:
+                return new CallsFragment();
+            default:
+                return new ChatsFragment();
         }
     }
 
@@ -37,16 +40,15 @@ public class FragmentsAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
 
         String title = null;
-        if (position == 0){
+        if (position == 0) {
             title = "CHATS";
         }
-        if (position == 1){
+        if (position == 1) {
             title = "STATUS";
         }
-        if (position == 2){
+        if (position == 2) {
             title = "CALLS";
         }
-
         return title;
     }
 }
